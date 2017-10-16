@@ -72,7 +72,7 @@
                     </view>
                     <connections>
                         <outlet property="hexValueTextField" destination="390" id="name-outlet-390"/>
-                        <outlet property="convertButton" destination="389" id="name-outlet-389"/>
+                        <outlet property="demoButton" destination="389" id="name-outlet-389"/>
                         <outlet property="redValueLabel" destination="194" id="name-outlet-194"/>
                         <outlet property="greenValueLabel" destination="195" id="name-outlet-195"/>
                         <outlet property="blueValueLabel" destination="196" id="name-outlet-196"/>

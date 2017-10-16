@@ -19,7 +19,7 @@ namespace hexx2rgb
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton convertButton { get; set; }
+        UIKit.UIButton coolButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -33,10 +33,6 @@ namespace hexx2rgb
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel redValueLabel { get; set; }
 
-        [Action ("UIButton389_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton389_TouchUpInside (UIKit.UIButton sender);
-
         void ReleaseDesignerOutlets ()
         {
             if (blueValueLabel != null) {
@@ -44,9 +40,9 @@ namespace hexx2rgb
                 blueValueLabel = null;
             }
 
-            if (convertButton != null) {
-                convertButton.Dispose ();
-                convertButton = null;
+            if (coolButton != null) {
+                coolButton.Dispose ();
+                coolButton = null;
             }
 
             if (greenValueLabel != null) {
