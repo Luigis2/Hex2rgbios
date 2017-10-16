@@ -1,0 +1,9 @@
+/Users/luigis2/Desktop/repos Official/Hex2rgbios/hexx2rgb/hexx2rgb/bin/iPhoneSimulator/Debug/hexx2rgb.exe
+/Users/luigis2/Desktop/repos Official/Hex2rgbios/hexx2rgb/hexx2rgb/bin/iPhoneSimulator/Debug/hexx2rgb.pdb
+/Users/luigis2/Desktop/repos Official/Hex2rgbios/hexx2rgb/hexx2rgb/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/luigis2/Desktop/repos Official/Hex2rgbios/hexx2rgb/hexx2rgb/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Users/luigis2/Desktop/repos Official/Hex2rgbios/hexx2rgb/hexx2rgb/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/luigis2/Desktop/repos Official/Hex2rgbios/hexx2rgb/hexx2rgb/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
+/Users/luigis2/Desktop/repos Official/Hex2rgbios/hexx2rgb/hexx2rgb/obj/iPhoneSimulator/Debug/hexx2rgb.csproj.CoreCompileInputs.cache
+/Users/luigis2/Desktop/repos Official/Hex2rgbios/hexx2rgb/hexx2rgb/obj/iPhoneSimulator/Debug/hexx2rgb.exe
+/Users/luigis2/Desktop/repos Official/Hex2rgbios/hexx2rgb/hexx2rgb/obj/iPhoneSimulator/Debug/hexx2rgb.pdb
