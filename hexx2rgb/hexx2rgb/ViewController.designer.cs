@@ -19,7 +19,7 @@ namespace hexx2rgb
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton coolButton { get; set; }
+        UIKit.UIView colorView { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -33,6 +33,10 @@ namespace hexx2rgb
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel redValueLabel { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton testTest { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
             if (blueValueLabel != null) {
@@ -40,9 +44,9 @@ namespace hexx2rgb
                 blueValueLabel = null;
             }
 
-            if (coolButton != null) {
-                coolButton.Dispose ();
-                coolButton = null;
+            if (colorView != null) {
+                colorView.Dispose ();
+                colorView = null;
             }
 
             if (greenValueLabel != null) {
@@ -58,6 +62,11 @@ namespace hexx2rgb
             if (redValueLabel != null) {
                 redValueLabel.Dispose ();
                 redValueLabel = null;
+            }
+
+            if (testTest != null) {
+                testTest.Dispose ();
+                testTest = null;
             }
         }
     }

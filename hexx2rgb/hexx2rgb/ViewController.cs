@@ -14,16 +14,15 @@ namespace hexx2rgb
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-			// Perform any additional setup after loading the view, typically from a nib.
+            // Perform any additional setup after loading the view, typically from a nib.
 
-            //convertButton.TouchUpInside += ConvertButton_TouchUpInside;
-            //demoButton.TouchUpInside+= DemoButton_TouchUpInside;
-            coolButton.TouchUpInside += CoolButton_TouchUpInside;
-		}
+            testTest.TouchUpInside+= TestTest_TouchUpInside;
 
-        void CoolButton_TouchUpInside(object sender, EventArgs e)
+        }
+
+
+        void TestTest_TouchUpInside(object sender, EventArgs e)
         {
-
 			string hexValue = hexValueTextField.Text;
 			string redHexValue = hexValue.Substring(0, 2);
 			string greenHexValue = hexValue.Substring(2, 2);
@@ -32,7 +31,15 @@ namespace hexx2rgb
 			int redValue = int.Parse(redHexValue, System.Globalization.NumberStyles.HexNumber);
 			int greenValue = int.Parse(greenHexValue, System.Globalization.NumberStyles.HexNumber);
 			int blueValue = int.Parse(blueHexValue, System.Globalization.NumberStyles.HexNumber);
+
+            blueValueLabel.Text = blueValue.ToString();
+            greenValueLabel.Text = greenValue.ToString();
+            redValueLabel.Text = redValue.ToString();
+
+            colorView.BackgroundColor = UIColor.FromRGB(redValue, greenValue, blueValue);
         }
+
+
 
         public override void DidReceiveMemoryWarning()
         {
